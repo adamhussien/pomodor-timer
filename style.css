@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FB9AD1 ;
+}
+.container{
+    margin: 3rem;
+    width: 20rem;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+color: #fff;
+}
+h1{
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.btn{
+   border: none;
+   background-color: transparent;
+   border: 1px solid #fff;
+   color: #003C43;
+   padding: .3rem .5rem;
+  border-radius: 10px;
+  margin: .5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
